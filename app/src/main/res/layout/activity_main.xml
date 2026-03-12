@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F5F5F5"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Classic Strategy"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:layout_marginBottom="60dp" />
+
+    <Button
+        android:id="@+id/btnSolo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Play Solo"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnFriend"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Play With a Friend"
+        android:textSize="18sp"
+        android:textColor="#2196F3"
+        android:backgroundTint="#FFFFFF" />
+
+</LinearLayout>
